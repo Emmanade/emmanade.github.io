@@ -1,9 +1,27 @@
+
 <html>
-  <head>
-  </head>
-  <body>
-    TEST
-    <a href="https://www.google.com">google</a>
-    <img src="https://static.pexels.com/photos/20787/pexels-photo.jpg">
-  </body>
+<head>
+<title>Form Capture</title>
+</head>
+
+<body>
+<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="http://analytics-eu.clickdimensions.com/forms/h/ahr7Y1KUWl066VDOwfHyib" method="post">
+
+First Name: <input type="text" name="firstname" id="firstname"/><br />
+Last Name: <input type="text" name="lastname" id="lastname"/><br />
+Email: <input type="email" name="email" id="email" /><br />
+  
+
+<input type="submit" value="Submit">
+</form> 
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('axhkovisiEO9U5zmMFiMNg'); 
+  cdAnalytics.setDomain('clickdimensions.com'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+</body>
 </html>
