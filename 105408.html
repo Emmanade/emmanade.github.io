@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Form Test</title>
+</head>
+<body>
+	<h2>Contact Form Footer</h2>
+	<form action="https://analytics-eu.clickdimensions.com/forms/h/amPMUQGRKky96B5FdgAkLw" method="post">
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" />
+		<br>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" value="TestName" />
+		<br>
+		<label for="surname">Surname</label>
+		<input type="text" name="surname" id="surname" value="TestSurname" />
+		<br>
+		<input type="checkbox" name="commerce_agreement" id="commerce_agreement" checked /><br>
+		<input type="text" name="company_name" id="company_name" value="Comapny Inc." /><br>
+		<input type="checkbox" name="marketing_agreement" id="marketing_agreement" checked /><br>
+		<input type="text" name="phone" id="phone" value="123456789" /><br>
+		<textarea name="message" id="message" cols="40" rows="3">Test message</textarea><br>
+		<input type="hidden" name="page_url" id="page_url" value="http://example.com" /><br>
+		<input type="hidden" name="site" id="site" value="sii.pl" /><br>
+		<input type="hidden" name="source" id="source" value="Contact Form Footer" /><br>
+		<input type="hidden" name="browser_language" id="browser_language" value="Polish" />
+		<input type="hidden" name="IPAddress" id="IPAddress" value="10.254.1.1" />
+		
+		<input type="submit" value="Submit" />
+	</form>
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+
+ <script type="text/javascript"> 
+   var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+   cdAnalytics.setAccountKey('aYmWMaVHbf0mx78uKnI29z'); 
+   cdAnalytics.setDomain('devdwcrm15int.siidev.pl'); 
+   cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+   cdAnalytics.trackPage(); 
+ </script> 
+
+</body>
+</html>
