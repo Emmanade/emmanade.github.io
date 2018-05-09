@@ -27,15 +27,33 @@
         </table>
         <br>
         
-<script type="text/javascript" src="https://analytics.clickdimensions.com/ts.js" > </script> 
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/optout.js" > </script> 
 
 <script type="text/javascript"> 
-  var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com'); 
-  cdAnalytics.setAccountKey('as6rWsSI93EGPnVVtKlQ59'); 
-  cdAnalytics.setDomain('emmanade.github.io'); 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('acP8vbk7mnUmxgTBl7vCkE'); 
+  cdAnalytics.setDomain('clickdimensions.com'); 
   cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
-  cdAnalytics.trackPage(); 
-</script>
+  var optOutHostId = 'clickdimensionscom_EkCv7lBTgxmUnm7kbv8Pca'; 
+  cdAnalytics.optOutTracking(true); 
+</script> 
+        
+        <script type="text/javascript"> 
+ var optOutSettings = { 
+    text: 'I like cats. <a href="#" id="stopTracking" style="color: #0b8be3">Disable Tracking</a>.', 
+    optedOutText: 'Tracking for this website has been disabled in this browser.', 
+    backgroundgColor: 'white', 
+    fontColor: '#283541', 
+    fontFamily: 'arial, sans-serif', 
+    fontSize: '14px', 
+    okButttonText: 'OK', 
+    okButttonBackgroundColor: '#0b8be3', 
+    okButttonTextColor: '#fff', 
+    okButttonWidth: 'auto', 
+    daysToKeepTheAnswer: 183 
+ }; 
+</script> 
     </center>    
     </body>
 </html>
