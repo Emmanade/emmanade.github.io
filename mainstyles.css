@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #CB8589;
+  background-color: #2CA6A4;
 }
 
 img{
@@ -46,7 +46,7 @@ a{
 
 .container{
   margin:10px;
-  background-color: #fffff0;
+  background-color: #E0F2E9;
 
 }
 .header_img{
@@ -72,7 +72,9 @@ a{
 .featured_works{
   margin-top: 15px;
   text-align: center;
+  background-color: #A3C4BC;
 }
+
 
 .single_work{
   margin: 10px 0px;
