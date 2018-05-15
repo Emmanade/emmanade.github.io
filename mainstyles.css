@@ -5,10 +5,11 @@
   padding: 0px;
   font-family: Open Sans Condensed;
   font-size: 20;
+  text-align: center;
 }
 
 body{
-
+  background-color: #CB8589;
 }
 
 img{
@@ -17,7 +18,8 @@ img{
 
 header{
   text-align: center;
-  margin: 10px 0px 15px 0px;
+  margin: 10px 0px 0px 0px;
+
 }
 
 main{
@@ -43,19 +45,19 @@ a{
 /*END GLOBAL STYLES*/
 
 .container{
-  background-color: white;
+  margin:10px;
+  background-color: #fffff0;
+
 }
 .header_img{
  max-width: 20%;
+
 }
 
 .main_content{
   text-align: center;
 }
 
-.hero_img{
-  box-shadow: 5px 5px 5px #dbdbdb;
-}
 
 .description{
   margin:15px;
@@ -76,6 +78,11 @@ a{
   margin: 10px 0px;
 }
 
-.preview{
+img.preview{
   margin:10px 0px;
+  filter: grayscale(100%);
+}
+
+.preview:hover{
+  filter: none;
 }
