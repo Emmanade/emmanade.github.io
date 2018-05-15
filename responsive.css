@@ -22,17 +22,15 @@
   }
   .header_logo{
     width:20%;
-    flex-grow: 1;
   }
 .header_img{
   margin-left: 20px;
   margin-right:20px;
   margin-top: 10px;
   max-width: 100%;
+
 }
-  .hero_img{
-      width:90%;
-  }
+
   .preview{
     width:75%;
   }
@@ -58,7 +56,7 @@
     font-size: 4vw;
   }
 }
-/**/
+/*Display the featured work in a flex box*/
 @media screen and (min-width:800px){
   h1{
     font-size: 7vw;
@@ -72,6 +70,9 @@
   p{
     font-size: 3vw;
   }
+  .header_img{
+    width:50%;
+  }
   .all_works{
     display:flex;
   }
@@ -84,5 +85,35 @@
   }
   .preview{
     width:90%;
+  }
+  .hero_img{
+      width:90%;
+  }
+
+}
+/*Final change - fix text flexbox her and about*/
+@media screen and (min-width:1200px){
+  h1{
+    font-size: 5vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  h3{
+    font-size: 3vw;
+  }
+  p{
+    font-size: 1.8vw;
+  }
+  .img_and_desc{
+  display: flex;
+  }
+  .hero_container{
+    width:50%;
+  }
+
+  .description{
+    width:50%;
+    font-size:
   }
 }
